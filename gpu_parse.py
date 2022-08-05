@@ -31,7 +31,7 @@ def main():
     plt.xticks(my_x_ticks)
     plt.yticks(my_y_ticks)
     plt.plot(range(0,x_axis_limit),[int(x) for x in gpu],label='Mali-G610')
-    plt.savefig(output_dir + time_str + "gpu_usage")
+    plt.savefig(output_dir + time_str + "-gpu_usage")
 
 if __name__ == '__main__':
     main()

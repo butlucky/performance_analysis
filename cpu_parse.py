@@ -69,7 +69,7 @@ def main():
         procname = ''.join(process[i])
         plt.plot(range(0,x_axis_limit),[float(x) for x in cpu[i]],label=procname)
     plt.legend(loc="best",fontsize = 'x-small')
-    plt.savefig(output_dir + time_str + "cpu_usage")
+    plt.savefig(output_dir + time_str + "-cpu_usage")
 
 # plot memory usage
     plt.figure(1)
@@ -86,7 +86,7 @@ def main():
         procname = ''.join(process[i])
         plt.plot(range(0,x_axis_limit),[int(x) for x in mem[i]],label=procname)
     plt.legend(loc="best",fontsize = 'x-small')
-    plt.savefig(output_dir + time_str + "memory_usage")
+    plt.savefig(output_dir + time_str + "-memory_usage")
 
 if __name__ == '__main__':
     main()
