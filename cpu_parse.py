@@ -32,7 +32,7 @@ def get_proc(filename):
     return process
 
 def main():
-    process = get_proc('process.txt')
+    process = get_proc(plt_process_file)
     intfs   = get_perf(plt_cpu_perf_file)
 
     cpu = [[] for j in range(len(process))]
