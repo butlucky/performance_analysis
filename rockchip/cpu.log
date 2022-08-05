@@ -1,0 +1,1377 @@
+495M  157   6.6 com.example.android.ui
+ 44M 46.4   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 14.2   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 10.7   1.1 /system/bin/surfaceflinger
+4.5M  7.1   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+ 12M  7.1   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+   0  3.5   0.0 [kworker/u17:4-mali_kbase_csf_kcpu]
+   0  3.5   0.0 [kworker/u17:6-mali_kbase_csf_kcpu]
+   0  3.5   0.0 [kworker/3:1-events]
+   0  3.5   0.0 [kworker/u17:5-mali_kbase_csf_sync_upd]
+ 28M  3.5   0.3 media.extractor aextractor
+ 29M  3.5   0.3 /system/bin/cameraserver
+   0  3.5   0.0 [kworker/4:1H-events_highpri]
+3.0M  0.0   0.0 /system/bin/sh /data/soc_perf.sh
+   0  0.0   0.0 [kworker/7:0-events]
+   0  0.0   0.0 [kworker/4:1-events]
+   0  0.0   0.0 [kworker/5:0H-events_highpri]
+   0  0.0   0.0 [kworker/0:1H-events_highpri]
+   0  0.0   0.0 [kworker/0:1-pm]
+   0  0.0   0.0 [kworker/6:1H-events_highpri]
+
+
+
+495M  159   6.6 com.example.android.ui
+ 44M 51.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 23.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M  9.0   1.1 /system/bin/surfaceflinger
+ 12M  7.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  6.0   0.3 /system/bin/cameraserver
+ 28M  3.0   0.3 media.extractor aextractor
+4.7M  2.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  2.0   0.0 [kworker/u17:3-mali_kbase_csf_sync_upd]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  1.0   0.0 [kworker/7:0H-events_highpri]
+   0  1.0   0.0 [kworker/1:1-events]
+   0  1.0   0.0 [kworker/3:1-events]
+   0  1.0   0.0 [kworker/u17:5-mali_kbase_csf_kcpu]
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+6.5M  1.0   0.0 /system/bin/logd
+   0  1.0   0.0 [irq/47-fdbb0000]
+   0  1.0   0.0 [queue_work9]
+   0  1.0   0.0 [queue_work6]
+   0  1.0   0.0 [rcu_preempt]
+
+
+
+496M  153   6.6 com.example.android.ui
+ 44M 49.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 19.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M  9.0   1.1 /system/bin/surfaceflinger
+ 12M  7.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  4.0   0.3 /system/bin/cameraserver
+   0  3.0   0.0 [kworker/u17:4-mali_kbase_csf_kcpu]
+   0  3.0   0.0 [kworker/u17:6-mali_kbase_csf_sync_upd]
+4.9M  2.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+ 28M  2.0   0.3 media.extractor aextractor
+   0  1.0   0.0 [kworker/5:0H-events_highpri]
+   0  1.0   0.0 [kworker/0:1-pm]
+   0  1.0   0.0 [kworker/6:0H-events_highpri]
+   0  1.0   0.0 [kworker/3:1-events]
+   0  1.0   0.0 [kworker/u17:1-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/u17:3-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:5-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [sugov:0]
+ 15M  1.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+
+
+
+496M  170   6.6 com.example.android.ui
+ 44M 58.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 22.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M  9.0   1.1 /system/bin/surfaceflinger
+ 12M  7.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  6.0   0.3 /system/bin/cameraserver
+4.8M  3.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  3.0   0.0 [kworker/u17:6+csf_scheduler_gpu_idle_]
+   0  2.0   0.0 [kworker/3:1-events]
+   0  2.0   0.0 [kworker/u17:1-mali_kbase_csf_kcpu]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+ 28M  2.0   0.3 media.extractor aextractor
+   0  1.0   0.0 [kworker/1:1-events]
+   0  1.0   0.0 [kworker/2:2-events]
+   0  1.0   0.0 [kworker/u17:4-mali_kbase_csf_sync_upd]
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+   0  1.0   0.0 [queue_work9]
+   0  1.0   0.0 [queue_work6]
+ 11M  1.0   0.1 /system/bin/init second_stage
+3.0M  0.0   0.0 /system/bin/sh /data/soc_perf.sh
+
+
+
+496M  146   6.6 com.example.android.ui
+ 44M 56.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 27.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M  9.0   1.1 /system/bin/surfaceflinger
+ 12M  8.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  7.0   0.3 /system/bin/cameraserver
+   0  4.0   0.0 [kworker/u17:4-mali_kbase_csf_kcpu]
+4.8M  3.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  3.0   0.0 [kworker/u17:6-mali_kbase_csf_sync_upd]
+   0  3.0   0.0 [kworker/u17:1-mali_kbase_csf_sync_upd]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+ 28M  2.0   0.3 media.extractor aextractor
+   0  1.0   0.0 [kworker/0:1-pm]
+   0  1.0   0.0 [kworker/1:1-events]
+   0  1.0   0.0 [kworker/u16:0-events_unbound]
+   0  1.0   0.0 [kworker/3:1-pm]
+   0  1.0   0.0 [kworker/1:0H-events_highpri]
+   0  1.0   0.0 [kworker/u17:3-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [sugov:0]
+5.2M  1.0   0.0 /apex/com.android.os.statsd/bin/statsd
+
+
+
+496M  156   6.6 com.example.android.ui
+ 44M 50.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 23.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M  9.0   1.1 /system/bin/surfaceflinger
+ 12M  7.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  6.0   0.3 /system/bin/cameraserver
+4.8M  3.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  3.0   0.0 [kworker/u17:5-mali_kbase_csf_kcpu]
+ 28M  3.0   0.3 media.extractor aextractor
+   0  2.0   0.0 [kworker/3:1-pm]
+   0  2.0   0.0 [kworker/u17:1-mali_kbase_csf_kcpu]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  1.0   0.0 [kworker/0:1-events_freezable]
+   0  1.0   0.0 [kworker/u17:4-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/6:0H-events_highpri]
+7.5M  1.0   0.1 /vendor/bin/hw/rild -l /vendor/lib64/libquectel-ril.so
+   0  1.0   0.0 [jbd2/mmcblk1p15]
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+   0  1.0   0.0 [kworker/4:1H-events_highpri]
+   0  1.0   0.0 [irq/47-fdbb0000]
+
+
+
+496M  166   6.6 com.example.android.ui
+ 44M 55.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 22.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 10.0   1.1 /system/bin/surfaceflinger
+ 12M  7.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  5.0   0.3 /system/bin/cameraserver
+4.8M  3.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  2.0   0.0 [kworker/u17:2-mali_kbase_csf_sync_upd]
+ 28M  2.0   0.3 media.extractor aextractor
+6.5M  2.0   0.0 /system/bin/logd
+   0  1.0   0.0 [kworker/7:0H-events_highpri]
+   0  1.0   0.0 [kworker/1:1-pm]
+   0  1.0   0.0 [kworker/u17:4-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/3:1-pm]
+   0  1.0   0.0 [kworker/u17:1-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:3-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/u17:5-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [sugov:0]
+477M  1.0   6.4 system_server
+ 15M  1.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+
+
+
+497M  197   6.7 com.example.android.ui
+ 44M 59.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 20.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 12.0   1.1 /system/bin/surfaceflinger
+ 12M 10.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  5.0   0.3 /system/bin/cameraserver
+4.8M  3.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+ 28M  3.0   0.3 media.extractor aextractor
+   0  2.0   0.0 [kworker/u17:3-mali_kbase_csf_sync_upd]
+   0  2.0   0.0 [kworker/u17:5-mali_kbase_csf_sync_upd]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  1.0   0.0 [kworker/u17:2-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/0:1-events]
+   0  1.0   0.0 [kworker/1:1-events]
+   0  1.0   0.0 [kworker/u17:4-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/u16:1-devfreq_wq]
+ 94M  1.0   1.2 com.android.statementservice
+   0  1.0   0.0 [sugov:6]
+   0  1.0   0.0 [sugov:0]
+6.5M  1.0   0.0 /system/bin/logd
+
+
+
+494M  179   6.6 com.example.android.ui
+ 44M 60.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 21.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 10.0   1.1 /system/bin/surfaceflinger
+ 12M  9.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  6.0   0.3 /system/bin/cameraserver
+   0  3.0   0.0 [kworker/u17:5+mali_kbase_csf_kcpu]
+4.9M  2.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  2.0   0.0 [kworker/1:1-events]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+ 28M  2.0   0.3 media.extractor aextractor
+   0  1.0   0.0 [kworker/u17:2-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/5:0H-events_highpri]
+   0  1.0   0.0 [kworker/3:1-events]
+   0  1.0   0.0 [kworker/u17:3-mali_kbase_csf_kcpu]
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+6.5M  1.0   0.0 /system/bin/logd
+   0  1.0   0.0 [irq/47-fdbb0000]
+   0  1.0   0.0 [queue_work9]
+   0  1.0   0.0 [queue_work6]
+
+
+
+494M  164   6.6 com.example.android.ui
+ 44M 58.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 24.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 11.0   1.1 /system/bin/surfaceflinger
+ 29M  7.0   0.3 /system/bin/cameraserver
+ 12M  7.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+4.8M  4.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+ 28M  3.0   0.3 media.extractor aextractor
+   0  2.0   0.0 [kworker/u17:3-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/u17:2-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/0:1-pm]
+   0  1.0   0.0 [kworker/1:1-pm]
+   0  1.0   0.0 [kworker/u17:4-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/6:0H-events_highpri]
+   0  1.0   0.0 [kworker/u17:1-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:5-mali_kbase_csf_kcpu]
+ 15M  1.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  1.0   0.0 [irq/34-rga3_cor]
+   0  1.0   0.0 [irq/47-fdbb0000]
+   0  1.0   0.0 [queue_work9]
+
+
+
+494M  170   6.6 com.example.android.ui
+ 44M 54.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 21.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M  9.0   1.1 /system/bin/surfaceflinger
+ 12M  7.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  5.0   0.3 /system/bin/cameraserver
+4.9M  4.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  3.0   0.0 [kworker/u17:5-mali_kbase_csf_sync_upd]
+ 28M  3.0   0.3 media.extractor aextractor
+   0  2.0   0.0 [kworker/1:1-pm]
+   0  2.0   0.0 [kworker/u17:3-csf_scheduler_wq]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+3.2M  2.0   0.0 /vendor/bin/rknn_server
+6.5M  2.0   0.0 /system/bin/logd
+   0  1.0   0.0 [kworker/u17:2-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/5:0H-events_highpri]
+   0  1.0   0.0 [kworker/6:0H-events_highpri]
+   0  1.0   0.0 [sugov:0]
+477M  1.0   6.4 system_server
+   0  1.0   0.0 [queue_work9]
+
+
+
+495M  177   6.6 com.example.android.ui
+ 44M 55.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 22.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 10.0   1.1 /system/bin/surfaceflinger
+ 12M  8.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  5.0   0.3 /system/bin/cameraserver
+ 28M  3.0   0.3 media.extractor aextractor
+   0  2.0   0.0 [kworker/u17:2-mali_kbase_csf_kcpu]
+4.8M  2.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  2.0   0.0 [kworker/1:1-pm]
+   0  2.0   0.0 [kworker/u17:4-mali_kbase_csf_kcpu]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  1.0   0.0 [kworker/4:1-events]
+   0  1.0   0.0 [kworker/0:1-pm]
+   0  1.0   0.0 [kworker/u17:1-csf_scheduler_wq]
+   0  1.0   0.0 [kworker/u17:3-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [sugov:0]
+   0  1.0   0.0 [irq/34-rga3_cor]
+   0  1.0   0.0 [irq/48-fdbd0000]
+   0  1.0   0.0 [irq/47-fdbb0000]
+
+
+
+495M  170   6.6 com.example.android.ui
+ 44M 56.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 23.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 10.0   1.1 /system/bin/surfaceflinger
+ 12M  8.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  5.0   0.3 /system/bin/cameraserver
+4.9M  4.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  3.0   0.0 [kworker/u17:4-mali_kbase_csf_sync_upd]
+ 28M  3.0   0.3 media.extractor aextractor
+   0  1.0   0.0 [kworker/u17:2-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/5:0H-events_highpri]
+   0  1.0   0.0 [kworker/1:1-pm]
+   0  1.0   0.0 [kworker/6:0H-events_highpri]
+   0  1.0   0.0 [kworker/1:0H-events_highpri]
+   0  1.0   0.0 [kworker/u17:1-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/u17:5-mali_kbase_csf_kcpu]
+ 15M  1.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+   0  1.0   0.0 [irq/47-fdbb0000]
+   0  1.0   0.0 [queue_work9]
+
+
+
+496M  155   6.6 com.example.android.ui
+ 44M 56.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 28.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M  8.0   1.1 /system/bin/surfaceflinger
+ 29M  7.0   0.3 /system/bin/cameraserver
+ 12M  7.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+   0  5.0   0.0 [kworker/u17:4-mali_kbase_csf_sync_upd]
+4.8M  4.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  3.0   0.0 [kworker/1:1-pm]
+ 28M  3.0   0.3 media.extractor aextractor
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  1.0   0.0 [kworker/u17:2-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/0:1-pm]
+   0  1.0   0.0 [kworker/7:0H-events_highpri]
+   0  1.0   0.0 [kworker/3:0H-events_highpri]
+   0  1.0   0.0 [kworker/7:2-events]
+   0  1.0   0.0 [kworker/u17:1-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/u16:1-events_unbound]
+   0  1.0   0.0 [kworker/u17:3-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/u17:5-mali_kbase_csf_kcpu]
+
+
+
+496M  161   6.6 com.example.android.ui
+ 44M 56.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 23.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M  9.0   1.1 /system/bin/surfaceflinger
+ 29M  6.0   0.3 /system/bin/cameraserver
+ 12M  6.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+   0  3.0   0.0 [kworker/u17:4-mali_kbase_csf_kcpu]
+4.8M  2.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  2.0   0.0 [kworker/1:1-events]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+ 28M  2.0   0.3 media.extractor aextractor
+   0  1.0   0.0 [kworker/u17:2-csf_scheduler_wq]
+   0  1.0   0.0 [kworker/0:1-pm]
+   0  1.0   0.0 [kworker/4:2H-events_highpri]
+   0  1.0   0.0 [kworker/3:1-events]
+   0  1.0   0.0 [kworker/u17:1-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:5-mali_kbase_csf_kcpu]
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+   0  1.0   0.0 [irq/48-fdbd0000]
+   0  1.0   0.0 [irq/47-fdbb0000]
+
+
+
+496M  145   6.6 com.example.android.ui
+ 44M 50.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 22.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M  8.0   1.1 /system/bin/surfaceflinger
+ 12M  6.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+4.8M  4.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+ 29M  4.0   0.3 /system/bin/cameraserver
+   0  3.0   0.0 [kworker/u17:4-mali_kbase_csf_sync_upd]
+   0  3.0   0.0 [kworker/u17:1-mali_kbase_csf_kcpu]
+ 28M  3.0   0.3 media.extractor aextractor
+   0  2.0   0.0 [kworker/u17:5-mali_kbase_csf_sync_upd]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  1.0   0.0 [kworker/5:0H-events_highpri]
+   0  1.0   0.0 [kworker/6:2-events]
+   0  1.0   0.0 [kworker/1:1-pm]
+   0  1.0   0.0 [kworker/6:0H-events_highpri]
+   0  1.0   0.0 [kworker/1:0H-events_highpri]
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+6.2M  1.0   0.0 /system/bin/hwservicemanager
+6.5M  1.0   0.0 /system/bin/logd
+
+
+
+496M  175   6.6 com.example.android.ui
+ 44M 57.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 21.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M  9.0   1.1 /system/bin/surfaceflinger
+ 29M  6.0   0.3 /system/bin/cameraserver
+ 12M  6.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+4.9M  5.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  3.0   0.0 [kworker/u17:4-mali_kbase_csf_kcpu]
+ 28M  3.0   0.3 media.extractor aextractor
+   0  2.0   0.0 [kworker/1:1-pm]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  2.0   0.0 [queue_work9]
+   0  1.0   0.0 [kworker/0:1-pm]
+   0  1.0   0.0 [kworker/u17:1-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:3-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:5-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [sugov:0]
+477M  1.0   6.4 system_server
+   0  1.0   0.0 [irq/47-fdbb0000]
+   0  1.0   0.0 [queue_work7]
+
+
+
+496M  151   6.7 com.example.android.ui
+ 44M 55.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 23.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M  9.0   1.1 /system/bin/surfaceflinger
+ 12M  7.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  5.0   0.3 /system/bin/cameraserver
+4.8M  4.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+ 28M  3.0   0.3 media.extractor aextractor
+   0  2.0   0.0 [kworker/2:2-events]
+   0  2.0   0.0 [kworker/u17:1-mali_kbase_csf_sync_upd]
+   0  2.0   0.0 [kworker/u17:3-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:2-csf_scheduler_wq]
+   0  1.0   0.0 [kworker/5:0H-events_highpri]
+   0  1.0   0.0 [kworker/u17:4-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/5:1-events]
+   0  1.0   0.0 [kworker/6:0H-events_highpri]
+   0  1.0   0.0 [kworker/3:1-pm]
+   0  1.0   0.0 [kworker/2:0H-kblockd]
+   0  1.0   0.0 [sugov:0]
+7.5M  1.0   0.1 /vendor/bin/hw/rild -l /vendor/lib64/libquectel-ril.so
+
+
+
+497M  158   6.7 com.example.android.ui
+ 44M 57.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 25.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M  8.0   1.1 /system/bin/surfaceflinger
+ 29M  5.0   0.3 /system/bin/cameraserver
+ 12M  5.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+   0  4.0   0.0 [kworker/u17:1-mali_kbase_csf_kcpu]
+ 15M  3.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+ 28M  3.0   0.3 media.extractor aextractor
+4.8M  2.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  2.0   0.0 [kworker/u17:4-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/0:1-pm]
+   0  1.0   0.0 [kworker/2:2-pm]
+   0  1.0   0.0 [kworker/3:1H-events_highpri]
+   0  1.0   0.0 [kworker/u17:5-mali_kbase_csf_sync_upd]
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+   0  1.0   0.0 [irq/48-fdbd0000]
+   0  1.0   0.0 [irq/47-fdbb0000]
+   0  1.0   0.0 [queue_work9]
+   0  1.0   0.0 [queue_work7]
+
+
+
+497M  160   6.7 com.example.android.ui
+ 45M 54.0   0.6 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 21.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M  8.0   1.1 /system/bin/surfaceflinger
+ 12M  6.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  5.0   0.3 /system/bin/cameraserver
+4.9M  4.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  2.0   0.0 [kworker/u17:1-mali_kbase_csf_sync_upd]
+ 28M  2.0   0.3 media.extractor aextractor
+   0  1.0   0.0 [kworker/u17:2-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u16:0-events_unbound]
+   0  1.0   0.0 [kworker/2:2-events]
+   0  1.0   0.0 [kworker/u17:4-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/3:1-events]
+   0  1.0   0.0 [kworker/7:2H-events_highpri]
+   0  1.0   0.0 [sugov:0]
+477M  1.0   6.4 system_server
+ 15M  1.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+   0  1.0   0.0 [spi2]
+
+
+
+495M  161   6.6 com.example.android.ui
+ 45M 51.0   0.6 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 20.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 10.0   1.1 /system/bin/surfaceflinger
+ 12M  7.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  6.0   0.3 /system/bin/cameraserver
+4.8M  3.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+ 28M  3.0   0.3 media.extractor aextractor
+   0  2.0   0.0 [kworker/2:2-pm]
+   0  2.0   0.0 [kworker/u17:1-mali_kbase_csf_sync_upd]
+   0  2.0   0.0 [kworker/u17:3-mali_kbase_csf_sync_upd]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+6.5M  2.0   0.0 /system/bin/logd
+   0  1.0   0.0 [kworker/u17:2-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/5:0H-events_highpri]
+   0  1.0   0.0 [kworker/0:1-pm]
+   0  1.0   0.0 [kworker/u17:4-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/6:0H-events_highpri]
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+   0  1.0   0.0 [irq/34-rga3_cor]
+
+
+
+495M  172   6.6 com.example.android.ui
+ 45M 57.0   0.6 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 23.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M  9.0   1.1 /system/bin/surfaceflinger
+ 12M  6.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  4.0   0.3 /system/bin/cameraserver
+4.8M  3.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+ 28M  3.0   0.3 media.extractor aextractor
+   0  2.0   0.0 [kworker/u17:4-mali_kbase_csf_sync_upd]
+   0  2.0   0.0 [kworker/u17:1-mali_kbase_csf_kcpu]
+   0  2.0   0.0 [kworker/u17:5-mali_kbase_csf_sync_upd]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  2.0   0.0 [queue_work9]
+   0  1.0   0.0 [kworker/4:2H-events_highpri]
+   0  1.0   0.0 [kworker/2:2-pm]
+   0  1.0   0.0 [kworker/u17:3-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [sugov:0]
+6.5M  1.0   0.0 /system/bin/logd
+   0  1.0   0.0 [dmabuf-deferred]
+   0  1.0   0.0 [irq/47-fdbb0000]
+
+
+
+495M  208   6.6 com.example.android.ui
+ 45M 66.0   0.6 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 22.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 13.0   1.1 /system/bin/surfaceflinger
+ 12M  9.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  6.0   0.3 /system/bin/cameraserver
+4.8M  4.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+ 28M  3.0   0.3 media.extractor aextractor
+   0  2.0   0.0 [kworker/2:2-pm]
+   0  2.0   0.0 [kworker/u17:3-mali_kbase_csf_kcpu]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  2.0   0.0 [queue_work9]
+   0  1.0   0.0 [kworker/0:1-pm]
+   0  1.0   0.0 [kworker/7:2-events]
+   0  1.0   0.0 [kworker/u17:4-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:1-mali_kbase_csf_sync_upd]
+477M  1.0   6.4 system_server
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+6.5M  1.0   0.0 /system/bin/logd
+   0  1.0   0.0 [irq/34-rga3_cor]
+
+
+
+496M  171   6.6 com.example.android.ui
+ 45M 59.0   0.6 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 23.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 11.0   1.1 /system/bin/surfaceflinger
+ 12M  7.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  5.0   0.3 /system/bin/cameraserver
+266M  4.0   3.5 com.android.systemui
+4.8M  3.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+ 28M  3.0   0.3 media.extractor aextractor
+   0  2.0   0.0 [kworker/2:2-pm]
+   0  2.0   0.0 [kworker/u17:4-mali_kbase_csf_sync_upd]
+   0  2.0   0.0 [kworker/u17:1-mali_kbase_csf_sync_upd]
+   0  2.0   0.0 [queue_work9]
+   0  1.0   0.0 [kworker/5:0H-events_highpri]
+   0  1.0   0.0 [kworker/3:0H-events_highpri]
+   0  1.0   0.0 [kworker/u17:3-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/u17:5-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [sugov:0]
+ 15M  1.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+
+
+
+496M  173   6.6 com.example.android.ui
+ 45M 53.0   0.6 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 20.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 10.0   1.1 /system/bin/surfaceflinger
+ 12M  7.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  5.0   0.3 /system/bin/cameraserver
+ 28M  4.0   0.3 media.extractor aextractor
+4.8M  3.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  2.0   0.0 [kworker/u17:4-mali_kbase_csf_kcpu]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  1.0   0.0 [kworker/5:0H-events_highpri]
+   0  1.0   0.0 [kworker/0:1-pm]
+   0  1.0   0.0 [kworker/2:2-pm]
+   0  1.0   0.0 [kworker/6:0H-events_highpri]
+   0  1.0   0.0 [kworker/1:0H-events_highpri]
+   0  1.0   0.0 [kworker/u17:1-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:5-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [sugov:6]
+8.9M  1.0   0.1 /system/bin/netd
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+
+
+
+496M  161   6.6 com.example.android.ui
+ 45M 53.0   0.6 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 22.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 10.0   1.1 /system/bin/surfaceflinger
+ 29M  6.0   0.3 /system/bin/cameraserver
+ 12M  6.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+4.9M  3.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  3.0   0.0 [kworker/u17:3-mali_kbase_csf_kcpu]
+   0  2.0   0.0 [kworker/2:2-pm]
+   0  2.0   0.0 [kworker/u17:5-mali_kbase_csf_sync_upd]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+ 28M  2.0   0.3 media.extractor aextractor
+   0  1.0   0.0 [kworker/u17:2-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/7:0H-events_highpri]
+   0  1.0   0.0 [kworker/u17:4-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/3:1-events]
+   0  1.0   0.0 [kworker/u17:1-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [sugov:0]
+477M  1.0   6.4 system_server
+ 10M  1.0   0.1 /vendor/bin/hw/android.hardware.wifi@1.0-service
+
+
+
+496M  178   6.7 com.example.android.ui
+ 45M 58.0   0.6 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 23.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M  9.0   1.1 /system/bin/surfaceflinger
+4.8M  6.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+ 12M  6.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  5.0   0.3 /system/bin/cameraserver
+ 28M  3.0   0.3 media.extractor aextractor
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  1.0   0.0 [kworker/u17:2-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/4:1-events]
+   0  1.0   0.0 [kworker/0:1-pm]
+   0  1.0   0.0 [kworker/1:1-events]
+   0  1.0   0.0 [kworker/2:2-pm]
+   0  1.0   0.0 [kworker/u17:4-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/3:1H-events_highpri]
+   0  1.0   0.0 [kworker/u17:1-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:3-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [sugov:0]
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+
+
+
+497M  176   6.7 com.example.android.ui
+ 45M 59.0   0.6 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 22.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 10.0   1.1 /system/bin/surfaceflinger
+ 12M  7.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  6.0   0.3 /system/bin/cameraserver
+4.9M  3.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  3.0   0.0 [kworker/u17:3-mali_kbase_csf_sync_upd]
+ 28M  3.0   0.3 media.extractor aextractor
+   0  2.0   0.0 [kworker/u17:2-mali_kbase_csf_kcpu]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  2.0   0.0 [queue_work9]
+   0  1.0   0.0 [kworker/5:0H-events_highpri]
+   0  1.0   0.0 [kworker/0:1-pm]
+   0  1.0   0.0 [kworker/2:2-pm]
+   0  1.0   0.0 [kworker/u16:1-events_unbound]
+   0  1.0   0.0 [kworker/u17:5-mali_kbase_csf_kcpu]
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+   0  1.0   0.0 [irq/34-rga3_cor]
+   0  1.0   0.0 [irq/47-fdbb0000]
+
+
+
+497M  183   6.7 com.example.android.ui
+ 45M 58.0   0.6 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 20.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 11.0   1.1 /system/bin/surfaceflinger
+ 12M  8.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  5.0   0.3 /system/bin/cameraserver
+4.8M  4.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+ 28M  4.0   0.3 media.extractor aextractor
+   0  2.0   0.0 [kworker/u17:5+mali_kbase_csf_sync_upd]
+6.5M  2.0   0.0 /system/bin/logd
+   0  1.0   0.0 [kworker/u17:2-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/0:1-pm]
+   0  1.0   0.0 [kworker/2:2-events]
+   0  1.0   0.0 [kworker/7:2-events]
+   0  1.0   0.0 [kworker/6:0H-events_highpri]
+   0  1.0   0.0 [kworker/u17:3-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [sugov:0]
+477M  1.0   6.4 system_server
+ 15M  1.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+ 21M  1.0   0.2 /system/bin/mediaserver
+
+
+
+497M  169   6.7 com.example.android.ui
+ 40M 53.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 21.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 10.0   1.1 /system/bin/surfaceflinger
+ 12M  6.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  5.0   0.3 /system/bin/cameraserver
+ 15M  3.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+4.9M  2.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  2.0   0.0 [kworker/0:1-events]
+   0  2.0   0.0 [kworker/u17:3-mali_kbase_csf_sync_upd]
+ 28M  2.0   0.3 media.extractor aextractor
+   0  1.0   0.0 [kworker/2:2-pm]
+   0  1.0   0.0 [kworker/u17:1-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:5-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [sugov:0]
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+   0  1.0   0.0 [dmabuf-deferred]
+   0  1.0   0.0 [irq/47-fdbb0000]
+   0  1.0   0.0 [queue_work9]
+   0  1.0   0.0 [queue_work6]
+
+
+
+494M  150   6.6 com.example.android.ui
+ 44M 52.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 25.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M  9.0   1.1 /system/bin/surfaceflinger
+ 29M  8.0   0.3 /system/bin/cameraserver
+ 12M  8.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+4.8M  4.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  3.0   0.0 [kworker/0:1-pm]
+ 28M  3.0   0.3 media.extractor aextractor
+   0  2.0   0.0 [kworker/u17:2-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/3:1-events]
+   0  1.0   0.0 [kworker/7:2H-events_highpri]
+   0  1.0   0.0 [kworker/u17:1-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:3-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:5-mali_kbase_csf_sync_upd]
+ 15M  1.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+6.5M  1.0   0.0 /system/bin/logd
+   0  1.0   0.0 [irq/34-rga3_cor]
+   0  1.0   0.0 [queue_work7]
+
+
+
+494M  155   6.6 com.example.android.ui
+ 44M 52.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 24.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 10.0   1.1 /system/bin/surfaceflinger
+ 29M  6.0   0.3 /system/bin/cameraserver
+ 12M  6.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+4.8M  5.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+ 28M  3.0   0.3 media.extractor aextractor
+   0  2.0   0.0 [kworker/u17:2-mali_kbase_csf_sync_upd]
+   0  2.0   0.0 [kworker/0:1-pm]
+   0  2.0   0.0 [kworker/u17:5-mali_kbase_csf_sync_upd]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  1.0   0.0 [kworker/1:0H-events_highpri]
+   0  1.0   0.0 [sugov:4]
+477M  1.0   6.4 system_server
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+6.5M  1.0   0.0 /system/bin/logd
+   0  1.0   0.0 [irq/48-fdbd0000]
+   0  1.0   0.0 [irq/47-fdbb0000]
+   0  1.0   0.0 [queue_work9]
+
+
+
+495M  162   6.6 com.example.android.ui
+ 44M 50.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 21.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 10.0   1.1 /system/bin/surfaceflinger
+ 12M  7.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  5.0   0.3 /system/bin/cameraserver
+4.8M  3.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  2.0   0.0 [kworker/0:1-pm]
+ 28M  2.0   0.3 media.extractor aextractor
+   0  1.0   0.0 [kworker/u17:2-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/6:2-events]
+   0  1.0   0.0 [kworker/u17:1-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:3-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/u17:5-mali_kbase_csf_kcpu]
+ 15M  1.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+6.5M  1.0   0.0 /system/bin/logd
+   0  1.0   0.0 [kworker/4:1H-events_highpri]
+   0  1.0   0.0 [irq/34-rga3_cor]
+   0  1.0   0.0 [irq/47-fdbb0000]
+   0  1.0   0.0 [queue_work9]
+
+
+
+495M  152   6.6 com.example.android.ui
+ 44M 54.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 24.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 10.0   1.1 /system/bin/surfaceflinger
+ 12M  7.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  6.0   0.3 /system/bin/cameraserver
+4.8M  3.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  3.0   0.0 [kworker/0:1-pm]
+ 28M  3.0   0.3 media.extractor aextractor
+   0  2.0   0.0 [kworker/u17:2-mali_kbase_csf_sync_upd]
+   0  2.0   0.0 [kworker/u17:4-mali_kbase_csf_sync_upd]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  1.0   0.0 [kworker/5:0H-events_highpri]
+   0  1.0   0.0 [kworker/7:2H-events_highpri]
+   0  1.0   0.0 [kworker/u17:3-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [sugov:0]
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+6.5M  1.0   0.0 /system/bin/logd
+   0  1.0   0.0 [irq/47-fdbb0000]
+   0  1.0   0.0 [queue_work9]
+
+
+
+495M  173   6.6 com.example.android.ui
+ 44M 61.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 24.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 10.0   1.1 /system/bin/surfaceflinger
+ 12M  6.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  5.0   0.3 /system/bin/cameraserver
+4.9M  4.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  2.0   0.0 [kworker/u17:2-mali_kbase_csf_sync_upd]
+   0  2.0   0.0 [kworker/0:1-pm]
+   0  2.0   0.0 [kworker/u17:4-mali_kbase_csf_sync_upd]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+ 28M  2.0   0.3 media.extractor aextractor
+   0  1.0   0.0 [kworker/u17:1-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/u17:5-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [irq/47-fdbb0000]
+   0  1.0   0.0 [queue_work9]
+   0  1.0   0.0 [queue_work6]
+   0  0.0   0.0 [kworker/2:1H]
+3.0M  0.0   0.0 /system/bin/sh /data/soc_perf.sh
+   0  0.0   0.0 [kworker/7:0-events]
+
+
+
+495M  168   6.6 com.example.android.ui
+ 44M 56.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 27.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M  7.0   1.1 /system/bin/surfaceflinger
+ 29M  6.0   0.3 /system/bin/cameraserver
+ 12M  5.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+   0  4.0   0.0 [kworker/0:1+pm]
+4.8M  3.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+ 15M  3.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+ 28M  3.0   0.3 media.extractor aextractor
+   0  2.0   0.0 [kworker/u17:5-mali_kbase_csf_sync_upd]
+6.5M  2.0   0.0 /system/bin/logd
+   0  1.0   0.0 [kworker/u17:2-csf_scheduler_gpu_idle_]
+   0  1.0   0.0 [kworker/4:2H-events_highpri]
+   0  1.0   0.0 [kworker/u17:4-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/5:1-events]
+   0  1.0   0.0 [kworker/3:1-events]
+   0  1.0   0.0 [kworker/1:0H-events_highpri]
+   0  1.0   0.0 [kworker/7:2H-events_highpri]
+   0  1.0   0.0 [kworker/u17:1-mali_kbase_csf_sync_upd]
+
+
+
+496M  170   6.6 com.example.android.ui
+ 44M 62.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 26.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M  9.0   1.1 /system/bin/surfaceflinger
+ 29M  7.0   0.3 /system/bin/cameraserver
+ 12M  5.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+4.8M  4.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+ 28M  4.0   0.3 media.extractor aextractor
+   0  3.0   0.0 [kworker/0:1-pm]
+   0  2.0   0.0 [kworker/u17:5-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:2-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/1:1-events]
+   0  1.0   0.0 [kworker/u17:4-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/u17:1-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [sugov:0]
+ 15M  1.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+   0  1.0   0.0 [irq/34-rga3_cor]
+   0  1.0   0.0 [irq/47-fdbb0000]
+   0  1.0   0.0 [queue_work9]
+
+
+
+496M  174   6.6 com.example.android.ui
+ 44M 59.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 27.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M  9.0   1.1 /system/bin/surfaceflinger
+ 29M  6.0   0.3 /system/bin/cameraserver
+ 12M  6.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+4.9M  5.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+ 28M  4.0   0.3 media.extractor aextractor
+   0  3.0   0.0 [kworker/0:1-pm]
+   0  2.0   0.0 [kworker/u17:5-mali_kbase_csf_sync_upd]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  1.0   0.0 [kworker/u17:2-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/1:2H-events_highpri]
+   0  1.0   0.0 [kworker/7:2-events]
+   0  1.0   0.0 [irq/48-fdbd0000]
+   0  1.0   0.0 [irq/47-fdbb0000]
+   0  1.0   0.0 [queue_work7]
+   0  1.0   0.0 [queue_work6]
+   0  1.0   0.0 [rcu_preempt]
+   0  0.0   0.0 [kworker/2:1H]
+
+
+
+496M  190   6.6 com.example.android.ui
+ 44M 54.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 19.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 11.0   1.1 /system/bin/surfaceflinger
+ 12M  9.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  5.0   0.3 /system/bin/cameraserver
+4.8M  4.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+ 28M  3.0   0.3 media.extractor aextractor
+   0  2.0   0.0 [kworker/0:1-pm]
+   0  2.0   0.0 [kworker/u17:4-mali_kbase_csf_sync_upd]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+6.5M  2.0   0.0 /system/bin/logd
+   0  2.0   0.0 [queue_work9]
+   0  1.0   0.0 [kworker/u17:2-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/u16:0-events_unbound]
+   0  1.0   0.0 [kworker/7:2H-events_highpri]
+   0  1.0   0.0 [kworker/u17:3-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:5-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [sugov:0]
+7.5M  1.0   0.1 /vendor/bin/hw/rild -l /vendor/lib64/libquectel-ril.so
+
+
+
+496M  204   6.6 com.example.android.ui
+ 45M 62.0   0.6 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 24.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 19.0   1.1 /system/bin/surfaceflinger
+ 12M 12.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  4.0   0.3 /system/bin/cameraserver
+   0  3.0   0.0 [kworker/0:1-pm]
+ 28M  3.0   0.3 media.extractor aextractor
+   0  2.0   0.0 [kworker/u17:2-mali_kbase_csf_sync_upd]
+4.9M  2.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  2.0   0.0 [kworker/u17:5-mali_kbase_csf_kcpu]
+   0  2.0   0.0 [irq/47-fdbb0000]
+   0  1.0   0.0 [kworker/5:0H-events_highpri]
+   0  1.0   0.0 [kworker/u17:4-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/3:1-events]
+   0  1.0   0.0 [sugov:0]
+ 15M  1.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+6.5M  1.0   0.0 /system/bin/logd
+   0  1.0   0.0 [irq/34-rga3_cor]
+
+
+
+497M  205   6.7 com.example.android.ui
+ 45M 61.0   0.6 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 23.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 17.0   1.1 /system/bin/surfaceflinger
+ 12M 13.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  6.0   0.3 /system/bin/cameraserver
+4.8M  3.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  3.0   0.0 [kworker/0:1-pm]
+   0  2.0   0.0 [kworker/u17:2-mali_kbase_csf_sync_upd]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+ 28M  2.0   0.3 media.extractor aextractor
+6.5M  2.0   0.0 /system/bin/logd
+   0  2.0   0.0 [irq/47-fdbb0000]
+   0  1.0   0.0 [kworker/u17:4-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:1-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:5-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [sugov:4]
+   0  1.0   0.0 [sugov:0]
+   0  1.0   0.0 [queue_work9]
+   0  1.0   0.0 [queue_work7]
+
+
+
+495M  216   6.6 com.example.android.ui
+ 45M 62.0   0.6 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 24.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 18.0   1.1 /system/bin/surfaceflinger
+ 12M 13.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  5.0   0.3 /system/bin/cameraserver
+   0  3.0   0.0 [kworker/0:1-pm]
+   0  3.0   0.0 [kworker/u17:5-mali_kbase_csf_sync_upd]
+ 28M  3.0   0.3 media.extractor aextractor
+   0  2.0   0.0 [kworker/u17:2-mali_kbase_csf_sync_upd]
+4.8M  2.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  2.0   0.0 [sugov:0]
+3.2M  2.0   0.0 /vendor/bin/rknn_server
+   0  2.0   0.0 [irq/47-fdbb0000]
+   0  2.0   0.0 [queue_work9]
+   0  1.0   0.0 [kworker/4:1-events]
+   0  1.0   0.0 [kworker/u17:4-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:3-mali_kbase_csf_kcpu]
+ 15M  1.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  1.0   0.0 [irq/34-rga3_cor]
+
+
+
+495M  178   6.6 com.example.android.ui
+ 45M 57.0   0.6 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 21.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 14.0   1.1 /system/bin/surfaceflinger
+ 12M 10.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 28M  5.0   0.3 media.extractor aextractor
+4.9M  4.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+ 29M  4.0   0.3 /system/bin/cameraserver
+   0  2.0   0.0 [kworker/u17:2-mali_kbase_csf_kcpu]
+   0  2.0   0.0 [kworker/0:1-pm]
+   0  2.0   0.0 [kworker/u17:4-mali_kbase_csf_kcpu]
+   0  2.0   0.0 [kworker/3:1-events_freezable]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+6.5M  2.0   0.0 /system/bin/logd
+   0  1.0   0.0 [kworker/6:0H-events_highpri]
+   0  1.0   0.0 [kworker/u17:5-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [sugov:0]
+ 21M  1.0   0.2 /system/bin/mediaserver
+8.1M  1.0   0.1 media.metrics diametrics
+8.4M  1.0   0.1 /vendor/bin/hw/android.hardware.graphics.allocator@4.0-service
+
+
+
+495M  179   6.6 com.example.android.ui
+ 40M 62.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 27.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 13.0   1.1 /system/bin/surfaceflinger
+ 29M  7.0   0.3 /system/bin/cameraserver
+ 12M  7.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+   0  4.0   0.0 [kworker/0:1-pm]
+ 28M  4.0   0.3 media.extractor aextractor
+4.8M  3.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  2.0   0.0 [kworker/u17:4-mali_kbase_csf_sync_upd]
+477M  2.0   6.4 system_server
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  1.0   0.0 [kworker/u17:2-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:3-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:5-mali_kbase_csf_kcpu]
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+   0  1.0   0.0 [irq/34-rga3_cor]
+   0  1.0   0.0 [irq/47-fdbb0000]
+   0  1.0   0.0 [queue_work9]
+   0  1.0   0.0 [queue_work7]
+
+
+
+495M  169   6.6 com.example.android.ui
+ 40M 59.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 28.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 11.0   1.1 /system/bin/surfaceflinger
+ 29M  8.0   0.3 /system/bin/cameraserver
+ 12M  8.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 28M  4.0   0.3 media.extractor aextractor
+4.9M  3.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  3.0   0.0 [kworker/0:1-pm]
+   0  2.0   0.0 [kworker/u17:2-mali_kbase_csf_sync_upd]
+   0  2.0   0.0 [kworker/u17:3-mali_kbase_csf_sync_upd]
+6.5M  2.0   0.0 /system/bin/logd
+   0  2.0   0.0 [irq/47-fdbb0000]
+   0  1.0   0.0 [kworker/3:1-events]
+   0  1.0   0.0 [kworker/7:2H-events_highpri]
+   0  1.0   0.0 [kworker/u17:5-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [sugov:4]
+   0  1.0   0.0 [sugov:0]
+ 15M  1.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+6.1M  1.0   0.0 /system/bin/hwservicemanager
+
+
+
+496M  168   6.6 com.example.android.ui
+ 44M 58.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 27.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 11.0   1.1 /system/bin/surfaceflinger
+ 29M  7.0   0.3 /system/bin/cameraserver
+ 12M  7.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+   0  4.0   0.0 [kworker/0:1-pm]
+   0  3.0   0.0 [kworker/u17:2-mali_kbase_csf_sync_upd]
+4.8M  3.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+ 28M  3.0   0.3 media.extractor aextractor
+   0  2.0   0.0 [kworker/u17:3-mali_kbase_csf_sync_upd]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  1.0   0.0 [kworker/1:2H-events_highpri]
+   0  1.0   0.0 [kworker/1:1-events]
+   0  1.0   0.0 [kworker/u17:4-csf_scheduler_wq]
+   0  1.0   0.0 [kworker/u17:1-mali_kbase_csf_kcpu]
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+   0  1.0   0.0 [irq/34-rga3_cor]
+   0  1.0   0.0 [irq/47-fdbb0000]
+   0  1.0   0.0 [queue_work9]
+
+
+
+496M  170   6.6 com.example.android.ui
+ 44M 55.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 28.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 12.0   1.1 /system/bin/surfaceflinger
+ 12M  8.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  5.0   0.3 /system/bin/cameraserver
+4.9M  4.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+ 28M  4.0   0.3 media.extractor aextractor
+   0  3.0   0.0 [kworker/0:1-pm]
+   0  2.0   0.0 [kworker/u17:4-mali_kbase_csf_sync_upd]
+   0  2.0   0.0 [kworker/u17:5-mali_kbase_csf_sync_upd]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  1.0   0.0 [kworker/5:0H-events_highpri]
+   0  1.0   0.0 [kworker/6:2-events]
+   0  1.0   0.0 [kworker/7:2-events]
+   0  1.0   0.0 [kworker/6:0H-events_highpri]
+   0  1.0   0.0 [kworker/7:2H-events_highpri]
+   0  1.0   0.0 [sugov:0]
+6.5M  1.0   0.0 /system/bin/logd
+   0  1.0   0.0 [irq/47-fdbb0000]
+
+
+
+496M  169   6.6 com.example.android.ui
+ 44M 59.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 28.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 12.0   1.1 /system/bin/surfaceflinger
+ 29M  7.0   0.3 /system/bin/cameraserver
+ 12M  7.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+   0  4.0   0.0 [kworker/0:1-pm]
+4.8M  3.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+ 15M  3.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+ 28M  3.0   0.3 media.extractor aextractor
+   0  2.0   0.0 [kworker/u17:4-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:2-csf_scheduler_wq]
+   0  1.0   0.0 [kworker/u16:0-events_unbound]
+   0  1.0   0.0 [kworker/5:1H-events_highpri]
+   0  1.0   0.0 [kworker/u17:1-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:5-mali_kbase_csf_sync_upd]
+7.5M  1.0   0.1 /vendor/bin/hw/rild -l /vendor/lib64/libquectel-ril.so
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+6.5M  1.0   0.0 /system/bin/logd
+   0  1.0   0.0 [irq/34-rga3_cor]
+
+
+
+496M  178   6.6 com.example.android.ui
+ 44M 69.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 26.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M  9.0   1.1 /system/bin/surfaceflinger
+ 29M  7.0   0.3 /system/bin/cameraserver
+ 12M  7.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 28M  4.0   0.3 media.extractor aextractor
+4.8M  3.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  3.0   0.0 [kworker/0:1-pm]
+   0  3.0   0.0 [kworker/u17:3-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:2-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/1:2H-events_highpri]
+   0  1.0   0.0 [kworker/u17:4-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/6:0H-events_highpri]
+   0  1.0   0.0 [kworker/3:1-events]
+   0  1.0   0.0 [kworker/u17:1-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [sugov:6]
+   0  1.0   0.0 [sugov:4]
+   0  1.0   0.0 [sugov:0]
+ 15M  1.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+
+
+
+497M  174   6.7 com.example.android.ui
+ 44M 61.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 27.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 12.0   1.1 /system/bin/surfaceflinger
+ 12M  7.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 28M  5.0   0.3 media.extractor aextractor
+ 29M  5.0   0.3 /system/bin/cameraserver
+4.9M  3.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  3.0   0.0 [kworker/0:1-pm]
+   0  2.0   0.0 [kworker/u17:2-mali_kbase_csf_sync_upd]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  2.0   0.0 [irq/47-fdbb0000]
+   0  1.0   0.0 [kworker/u17:4-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/5:1H-events_highpri]
+   0  1.0   0.0 [kworker/u17:3-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:5-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [sugov:0]
+477M  1.0   6.4 system_server
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+6.3M  1.0   0.0 /system/bin/hwservicemanager
+
+
+
+497M  175   6.7 com.example.android.ui
+ 44M 64.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 22.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 10.0   1.1 /system/bin/surfaceflinger
+ 12M  8.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  7.0   0.3 /system/bin/cameraserver
+ 28M  4.0   0.3 media.extractor aextractor
+4.8M  3.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  3.0   0.0 [kworker/0:1-pm]
+ 15M  3.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  2.0   0.0 [kworker/u17:2-mali_kbase_csf_kcpu]
+   0  2.0   0.0 [kworker/u17:3-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/2:2-events]
+   0  1.0   0.0 [kworker/u17:4-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/1:0H-events_highpri]
+   0  1.0   0.0 [kworker/7:2H-events_highpri]
+   0  1.0   0.0 [kworker/u17:5-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [sugov:0]
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+   0  1.0   0.0 [kworker/4:1H-events_highpri]
+
+
+
+494M  168   6.6 com.example.android.ui
+ 44M 63.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 21.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 11.0   1.1 /system/bin/surfaceflinger
+ 29M  6.0   0.3 /system/bin/cameraserver
+ 12M  6.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 28M  4.0   0.3 media.extractor aextractor
+4.8M  3.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  2.0   0.0 [kworker/0:1-pm]
+   0  2.0   0.0 [kworker/u17:4-mali_kbase_csf_sync_upd]
+   0  2.0   0.0 [kworker/u17:5-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/u17:2-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/7:2-events]
+   0  1.0   0.0 [kworker/0:0H-mmc_complete]
+   0  1.0   0.0 [kworker/6:0H-events_highpri]
+   0  1.0   0.0 [kworker/1:0H-events_highpri]
+   0  1.0   0.0 [kworker/5:1H-events_highpri]
+   0  1.0   0.0 [kworker/u17:1+csf_scheduler_gpu_idle_]
+   0  1.0   0.0 [kworker/u17:3-mali_kbase_csf_sync_upd]
+ 15M  1.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+
+
+
+494M  161   6.6 com.example.android.ui
+ 44M 59.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 23.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 11.0   1.1 /system/bin/surfaceflinger
+ 12M  8.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  7.0   0.3 /system/bin/cameraserver
+4.9M  4.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+ 28M  4.0   0.3 media.extractor aextractor
+   0  3.0   0.0 [kworker/0:1-pm]
+   0  2.0   0.0 [kworker/u17:2-mali_kbase_csf_kcpu]
+   0  2.0   0.0 [kworker/u17:4-mali_kbase_csf_kcpu]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  2.0   0.0 [irq/47-fdbb0000]
+   0  1.0   0.0 [kworker/1:1-events]
+   0  1.0   0.0 [kworker/7:2-pm]
+   0  1.0   0.0 [kworker/6:0H-events_highpri]
+   0  1.0   0.0 [kworker/1:0H-events_highpri]
+   0  1.0   0.0 [kworker/u17:1-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/u17:3-mali_kbase_csf_kcpu]
+477M  1.0   6.4 system_server
+
+
+
+495M  162   6.6 com.example.android.ui
+ 45M 60.0   0.6 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 22.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 10.0   1.1 /system/bin/surfaceflinger
+ 29M  7.0   0.3 /system/bin/cameraserver
+ 12M  6.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+4.8M  4.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+ 28M  4.0   0.3 media.extractor aextractor
+ 15M  3.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  2.0   0.0 [kworker/0:1+pm]
+   0  2.0   0.0 [kworker/u17:5-csf_scheduler_gpu_idle_]
+   0  1.0   0.0 [kworker/u17:2-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/4:1-events]
+   0  1.0   0.0 [kworker/u16:0-events_unbound]
+   0  1.0   0.0 [kworker/7:2-events]
+   0  1.0   0.0 [kworker/u17:4-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/3:1-events]
+   0  1.0   0.0 [kworker/u17:3-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [sugov:4]
+   0  1.0   0.0 [sugov:0]
+
+
+
+483M  170   6.5 com.example.android.ui
+ 40M 66.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 20.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 10.0   1.1 /system/bin/surfaceflinger
+ 12M  7.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 28M  6.0   0.3 media.extractor aextractor
+ 29M  5.0   0.3 /system/bin/cameraserver
+   0  2.0   0.0 [kworker/u17:2-mali_kbase_csf_sync_upd]
+4.9M  2.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  2.0   0.0 [kworker/0:1-pm]
+   0  2.0   0.0 [kworker/u17:3-mali_kbase_csf_kcpu]
+3.2M  2.0   0.0 /vendor/bin/rknn_server
+   0  1.0   0.0 [kworker/7:2-pm]
+   0  1.0   0.0 [kworker/5:1-events]
+   0  1.0   0.0 [kworker/5:1H-events_highpri]
+   0  1.0   0.0 [sugov:0]
+ 15M  1.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+8.4M  1.0   0.1 /vendor/bin/hw/android.hardware.graphics.allocator@4.0-service
+5.1M  1.0   0.0 /system/bin/servicemanager
+6.5M  1.0   0.0 /system/bin/logd
+
+
+
+495M  202   6.6 com.example.android.ui
+ 40M 73.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 17.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 13.0   1.1 /system/bin/surfaceflinger
+ 12M  8.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  6.0   0.3 /system/bin/cameraserver
+4.8M  4.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+ 28M  3.0   0.3 media.extractor aextractor
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  2.0   0.0 [irq/47-fdbb0000]
+   0  1.0   0.0 [kworker/u17:2-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/0:1-pm]
+   0  1.0   0.0 [kworker/7:2-events]
+   0  1.0   0.0 [kworker/u17:4-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:3-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:5-mali_kbase_csf_sync_upd]
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+6.5M  1.0   0.0 /system/bin/logd
+   0  1.0   0.0 [queue_work9]
+   0  1.0   0.0 [queue_work6]
+
+
+
+495M  185   6.6 com.example.android.ui
+ 40M 72.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 18.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 14.0   1.1 /system/bin/surfaceflinger
+ 12M 10.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  5.0   0.3 /system/bin/cameraserver
+4.8M  3.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+ 28M  3.0   0.3 media.extractor aextractor
+   0  2.0   0.0 [kworker/0:1-pm]
+   0  2.0   0.0 [kworker/u17:4-mali_kbase_csf_sync_upd]
+   0  2.0   0.0 [kworker/u17:5-mali_kbase_csf_sync_upd]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  1.0   0.0 [kworker/7:2-events]
+   0  1.0   0.0 [kworker/7:2H-events_highpri]
+   0  1.0   0.0 [kworker/u17:1-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/u17:3-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [sugov:0]
+7.5M  1.0   0.1 /vendor/bin/hw/rild -l /vendor/lib64/libquectel-ril.so
+3.2M  1.0   0.0 /vendor/bin/rknn_server
+   0  1.0   0.0 [irq/34-rga3_cor]
+
+
+
+496M  169   6.6 com.example.android.ui
+ 44M 68.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 19.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 12.0   1.1 /system/bin/surfaceflinger
+ 12M  9.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 28M  6.0   0.3 media.extractor aextractor
+ 29M  5.0   0.3 /system/bin/cameraserver
+4.8M  3.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  2.0   0.0 [kworker/0:1-pm]
+   0  2.0   0.0 [kworker/7:2-pm]
+6.5M  2.0   0.0 /system/bin/logd
+   0  1.0   0.0 [kworker/u17:2-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/1:2H-events_highpri]
+   0  1.0   0.0 [kworker/u17:4-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/6:0H-events_highpri]
+   0  1.0   0.0 [kworker/3:1-events]
+   0  1.0   0.0 [kworker/u17:3-csf_scheduler_wq]
+   0  1.0   0.0 [kworker/u17:5-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [sugov:0]
+ 15M  1.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+
+
+
+483M  165   6.5 com.example.android.ui
+ 40M 55.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 20.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M  9.0   1.1 /system/bin/surfaceflinger
+ 12M  6.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+4.9M  5.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+ 29M  5.0   0.3 /system/bin/cameraserver
+ 28M  3.0   0.3 media.extractor aextractor
+   0  2.0   0.0 [kworker/u17:5-mali_kbase_csf_kcpu]
+478M  2.0   6.4 system_server
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+   0  1.0   0.0 [kworker/u17:2-kbase_pm_poweroff_wait]
+   0  1.0   0.0 [kworker/0:1-pm]
+   0  1.0   0.0 [kworker/u16:0-events_unbound]
+   0  1.0   0.0 [kworker/u17:4-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u17:1-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [sugov:0]
+8.9M  1.0   0.1 /system/bin/netd
+6.5M  1.0   0.0 /system/bin/logd
+   0  1.0   0.0 [kworker/4:1H-events_highpri]
+
+
+
+496M  191   6.6 com.example.android.ui
+ 40M 61.0   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
+ 31M 19.0   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
+ 87M 14.0   1.1 /system/bin/surfaceflinger
+ 12M 11.0   0.1 /vendor/bin/hw/android.hardware.graphics.composer@2.1-service
+ 29M  5.0   0.3 /system/bin/cameraserver
+ 28M  4.0   0.3 media.extractor aextractor
+   0  3.0   0.0 [kworker/u17:2-mali_kbase_csf_kcpu]
+4.8M  3.0   0.0 top -b -o RES,%CPU,%MEM,CMDLINE -s 2 -d 1 -m 15 -n 60 -q
+   0  3.0   0.0 [kworker/u17:5-mali_kbase_csf_sync_upd]
+   0  2.0   0.0 [kworker/0:1-events]
+ 15M  2.0   0.1 media.codec hw/android.hardware.media.omx@1.0-service
+3.2M  2.0   0.0 /vendor/bin/rknn_server
+   0  2.0   0.0 [irq/47-fdbb0000]
+   0  2.0   0.0 [queue_work9]
+   0  1.0   0.0 [kworker/7:2-events]
+   0  1.0   0.0 [kworker/u17:4-mali_kbase_csf_kcpu]
+   0  1.0   0.0 [kworker/u17:1-mali_kbase_csf_sync_upd]
+   0  1.0   0.0 [kworker/u16:1-devfreq_wq]
+   0  1.0   0.0 [sugov:6]
