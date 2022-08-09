@@ -9,9 +9,12 @@ output_dir = "./output/"
 
 def get_perf(filename):
     intfs = []
+    wc = 0
+
     with open(filename,'r',encoding='utf8') as log_file:
         lines = log_file.readlines()
         for line in lines:
+            wc += 1
             if len(line)>3:
                 mem_rss,cpu_duty,mem_duty,*name = line.split()
                 intf_data = {
@@ -21,6 +24,10 @@ def get_perf(filename):
                     'name':name,
                 }
                 intfs.append(intf_data)
+        if wc < 8:
+            print("!!! warning: can not capture cpu loading,please confirm !!!")
+            os._exit(0)
+
     return intfs
 
 def get_proc(filename):
@@ -37,6 +44,8 @@ def main():
 
     cpu = [[] for j in range(len(process))]
     mem = [[] for j in range(len(process))]
+    val = [ 0 for j in range(len(process))]
+    eout = 0
 
     for i in range(0,len(intfs)):
         strname = ''.join(intfs[i]['name'])
@@ -48,7 +57,16 @@ def main():
                 mem_rss = ''.join(intfs[i]['mem_rss'])
                 mem_rss = mem_rss.strip('M')
                 mem[j].append(mem_rss)
+                val[j] +=1
                 break
+    for i in range(0,len(process)):
+        if val[i] != x_axis_limit:
+            print("!!!error: process data parse error, process name->",process[i])
+            print("we need ->",x_axis_limit,"capture ->",val[i])
+            eout = 1
+    if eout:
+        print("please confirm process name in process.txt")
+        os._exit(0)
 
     if not os.path.exists(output_dir):
         os.makedirs(output_dir) 
@@ -84,7 +102,7 @@ def main():
     plt.yticks(my_y_ticks)
     for i in range(0,len(process)):
         procname = ''.join(process[i])
-        plt.plot(range(0,x_axis_limit),[int(x) for x in mem[i]],label=procname)
+        plt.plot(range(0,x_axis_limit),[float(x) for x in mem[i]],label=procname)
     plt.legend(loc="best",fontsize = 'x-small')
     plt.savefig(output_dir + time_str + "-memory_usage")
 

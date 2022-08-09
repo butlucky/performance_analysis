@@ -1,6 +1,6 @@
-com.example.android.ui
 android.hardware.camera.provider
 android.hardware.media.c
-surfaceflinger
 android.hardware.graphics.composer
+com.example.android.ui
+surfaceflinger
 cameraserver

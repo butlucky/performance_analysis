@@ -9,11 +9,20 @@ output_dir = "./output/"
 
 def main():
     gpu = []
+    wc = 0
 
     with open(plt_gpu_perf_file,'r',encoding='utf8') as log_file:
         lines = log_file.readlines()
         for line in lines:
+            wc += 1
             gpu.append(line)
+
+    if wc == 1:
+        print("!!! warning: can not capture gpu loading,please confirm !!!")
+        os._exit(0)
+    if wc != x_axis_limit:
+        print("!!! error: gpu cature data error, we need->",x_axis_limit,"but capture->",wc)
+        os._exit(0)
 
     if not os.path.exists(output_dir):
         os.makedirs(output_dir) 

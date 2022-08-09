@@ -3,8 +3,8 @@ x_axis_limit = 60
 x_axis_step = 2
 x_axis_label = "time: sencond"
 # perf file
-plt_cpu_perf_file = "rockchip/cpu.log"
-plt_gpu_perf_file = "rockchip/gpu.log"
+plt_cpu_perf_file = "cpu.log"
+plt_gpu_perf_file = "gpu.log"
 plt_process_file="process.txt"
 # cpu line graph config
 plt_cpu_title = "cpu comsumption statisitics"

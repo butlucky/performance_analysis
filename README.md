@@ -1,4 +1,4 @@
-1 rockchp/soc_perf.sh脚本实现性能数据采样保存，默认按照cpu占用率排序
+1 soc_perf.sh脚本实现性能数据采样保存，默认按照cpu占用率排序
   1cps频率采样60秒top15的数据，可以根据实际情况修改。
 
   495M  157   6.6 com.example.android.ui
@@ -60,7 +60,7 @@
 4 one_key_check.sh脚本为工具入口，在mac、linux的terminal上直接运行即可
   one_key_check.bat脚本为windows平台工具入口
 
-  ./one_key_check.sh rockchip
+  ./one_key_check.sh
   自动完成当下adb连接的android设备相关性能数据的抓取和分析并生成文件报告
 
 5 output目录为最终输出的折线图文件，可直接双击查看
