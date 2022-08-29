@@ -55,6 +55,8 @@ if [ $connect != 2 ];then
 	echo "!!! warning: plz confirm connect only one android device !!!"
 	exit
 fi
+# running adb root twice, get information "adbd already running as root"
+adb root
 root=`adb root | grep "running as root" | wc -l`
 if [ $root != 0 ];then
 	echo "android device get root permission"
