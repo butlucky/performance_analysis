@@ -61,12 +61,11 @@ def main():
                 break
     for i in range(0,len(process)):
         if val[i] != x_axis_limit:
-            print("!!!error: process data parse error, process name->",process[i])
-            print("we need ->",x_axis_limit,"capture ->",val[i])
-            eout = 1
-    if eout:
-        print("please confirm process name in process.txt")
-        os._exit(0)
+            print("!!!waring: process data missing, process name->",process[i])
+            print("we need ->",x_axis_limit,"capture ->",val[i],"fill it")
+            for j in range(val[i],x_axis_limit):
+                cpu[i].append(cpu[i][j-1])
+                mem[i].append(mem[i][j-1])
 
     if not os.path.exists(output_dir):
         os.makedirs(output_dir) 
@@ -74,11 +73,14 @@ def main():
 
 # plot cpu usage
     plt.figure(0)
+    plt.figure(figsize=(16,4))
+    plt.tick_params(axis='x',labelsize=8)
     plt.title(plt_cpu_title)
     plt.xlabel(x_axis_label)
     plt.xlim((0, x_axis_limit))
     my_x_ticks = np.arange(0, x_axis_limit, x_axis_step)
     plt.xticks(my_x_ticks)
+    plt.xticks(rotation=-25)
     plt.ylabel(plt_cpu_ylabel)
     plt.ylim((0, plt_cpu_y_axis_limit))
     my_y_ticks = np.arange(0, plt_cpu_y_axis_limit, plt_cpu_y_axis_step)
@@ -91,11 +93,14 @@ def main():
 
 # plot memory usage
     plt.figure(1)
+    plt.figure(figsize=(16,4))
+    plt.tick_params(axis='x',labelsize=8)
     plt.title(plt_mem_title)
     plt.xlabel(x_axis_label)
     plt.xlim((0, x_axis_limit))
     my_x_ticks = np.arange(0, x_axis_limit, x_axis_step)
     plt.xticks(my_x_ticks)
+    plt.xticks(rotation=-25)
     plt.ylabel(plt_mem_ylabel)
     plt.ylim((0, plt_mem_y_axis_limit))
     my_y_ticks = np.arange(0, plt_mem_y_axis_limit, plt_mem_y_axis_step)

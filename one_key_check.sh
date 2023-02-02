@@ -80,4 +80,4 @@ cat process.txt
 echo "------------------------------------------------"
 python cpu_parse.py
 python gpu_parse.py
-echo "parse done !!"
+echo "parse done !! please check the line chart in dir output!"

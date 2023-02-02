@@ -33,25 +33,28 @@
 
 3 在include.py中配置保存折线图相关参数
 
-  // capture range 60s
+  # capture range 60s, 可以根据实际采样需要修改limit，limit变大，则step需要相应变大
+  # 否则会导致x轴label太过拥挤无法辨认，于此同时此处limit修改需要将soc_perf.sh中数据源
+  # 采样个数做出对应调整
+
   x_axis_limit = 60
   x_axis_step = 2
   x_axis_label = "time: sencond"
-  // perf file
+  # perf file
   plt_cpu_perf_file = "rockchip/cpu.log"
   plt_gpu_perf_file = "rockchip/gpu.log"
   plt_process_file="process.txt"
-  // cpu line graph config
+  # cpu line graph config
   plt_cpu_title = "cpu comsumption statisitics"
   plt_cpu_ylabel = "cpu usage percent: %"
   plt_cpu_y_axis_limit = 800
   plt_cpu_y_axis_step = 30
-  // memory line graph config
+  # memory line graph config
   plt_mem_title = "memory comsumption statisitics"
   plt_mem_ylabel = "mem rss usage: M"
   plt_mem_y_axis_limit = 1024
   plt_mem_y_axis_step = 50
-  // gpu line graph config
+  # gpu line graph config
   plt_gpu_title = "gpu comsumption statisitics"
   plt_gpu_ylabel = "gpu usage percent: %"
   plt_gpu_y_axis_limit = 100
