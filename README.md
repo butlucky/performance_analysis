@@ -1,6 +1,6 @@
 1 soc_perf.sh脚本实现性能数据采样保存，默认按照cpu占用率排序
   1cps频率采样60秒top15的数据，可以根据实际情况修改。
-
+```
   495M  157   6.6 com.example.android.ui
    44M 46.4   0.5 /vendor/bin/hw/android.hardware.media.c2@1.1-service
    31M 14.2   0.4 /vendor/bin/hw/android.hardware.camera.provider@2.4-service
@@ -21,18 +21,18 @@
      0  0.0   0.0 [kworker/0:1H-events_highpri]
      0  0.0   0.0 [kworker/0:1-pm]
      0  0.0   0.0 [kworker/6:1H-events_highpri]
-
+```
 2 在process.txt中配置保存需要采样分析性能的进程，具有唯一性即可，支持匹配查询。
-
+```
   com.example.android.ui
   android.hardware.camera.provider
   android.hardware.media.c
   surfaceflinger
   android.hardware.graphics.composer
   cameraserver
-
+```
 3 在include.py中配置保存折线图相关参数
-
+```
   # capture range 60s, 可以根据实际采样需要修改limit，limit变大，则step需要相应变大
   # 否则会导致x轴label太过拥挤无法辨认，于此同时此处limit修改需要将soc_perf.sh中数据源
   # 采样个数做出对应调整
@@ -59,15 +59,16 @@
   plt_gpu_ylabel = "gpu usage percent: %"
   plt_gpu_y_axis_limit = 100
   plt_gpu_y_axis_step = 10
-
+```
 4 one_key_check.sh脚本为工具入口，在mac、linux的terminal上直接运行即可
   one_key_check.bat脚本为windows平台工具入口
-
+```
   ./one_key_check.sh
+```
   自动完成当下adb连接的android设备相关性能数据的抓取和分析并生成文件报告
 
 5 output目录为最终输出的折线图文件，可直接双击查看
-
+```
   ~/github/performence_analysis> ll output 
   -rw-r--r--  1 bytedance  staff  55002 Aug  5 16:40 20220805-16:39:59-cpu_usage.png
   -rw-r--r--  1 bytedance  staff  37019 Aug  5 16:40 20220805-16:39:59-memory_usage.png
@@ -75,3 +76,4 @@
   -rw-r--r--  1 bytedance  staff  52328 Aug  5 16:43 20220805-16:43:05-cpu_usage.png
   -rw-r--r--  1 bytedance  staff  36638 Aug  5 16:43 20220805-16:43:05-memory_usage.png
   -rw-r--r--  1 bytedance  staff  27477 Aug  5 16:43 20220805-16:43:06-gpu_usage.png
+```
