@@ -1,0 +1,104 @@
+buffers {
+  size_kb: 819200
+  fill_policy: DISCARD
+}
+buffers {
+  size_kb: 8192
+  fill_policy: DISCARD
+}
+data_sources {
+  config {
+    name: "linux.ftrace"
+    ftrace_config {
+      ftrace_events: "sched/sched_process_exit"
+      ftrace_events: "sched/sched_process_free"
+      ftrace_events: "task/task_newtask"
+      ftrace_events: "task/task_rename"
+      ftrace_events: "sched/sched_switch"
+      ftrace_events: "power/suspend_resume"
+      ftrace_events: "sched/sched_blocked_reason"
+      ftrace_events: "sched/sched_wakeup"
+      ftrace_events: "sched/sched_wakeup_new"
+      ftrace_events: "sched/sched_waking"
+      ftrace_events: "sched/sched_process_exit"
+      ftrace_events: "sched/sched_process_free"
+      ftrace_events: "task/task_newtask"
+      ftrace_events: "task/task_rename"
+      ftrace_events: "raw_syscalls/sys_enter"
+      ftrace_events: "raw_syscalls/sys_exit"
+      ftrace_events: "ftrace/print"
+      atrace_categories: "adb"
+      atrace_categories: "aidl"
+      atrace_categories: "am"
+      atrace_categories: "audio"
+      atrace_categories: "binder_driver"
+      atrace_categories: "binder_lock"
+      atrace_categories: "bionic"
+      atrace_categories: "camera"
+      atrace_categories: "dalvik"
+      atrace_categories: "database"
+      symbolize_ksyms: true
+      disable_generic_events: true
+    }
+  }
+}
+data_sources {
+  config {
+    name: "linux.process_stats"
+    process_stats_config {
+      scan_all_processes_on_start: true
+    }
+  }
+}
+data_sources {
+  config {
+    name: "linux.sys_stats"
+    sys_stats_config {
+      stat_period_ms: 250
+      stat_counters: STAT_CPU_TIMES
+      stat_counters: STAT_FORK_COUNT
+    }
+  }
+}
+data_sources {
+  config {
+    name: "android.log"
+    android_log_config {
+      log_ids: LID_CRASH
+      log_ids: LID_DEFAULT
+      log_ids: LID_EVENTS
+      log_ids: LID_KERNEL
+      log_ids: LID_RADIO
+      log_ids: LID_SECURITY
+      log_ids: LID_STATS
+      log_ids: LID_SYSTEM
+    }
+  }
+}
+data_sources {
+  config {
+    name: "android.surfaceflinger.frametimeline"
+  }
+}
+data_sources {
+  config {
+    name: "android.network_packets"
+    network_packet_trace_config {
+      poll_ms: 250
+    }
+  }
+}
+data_sources {
+  config {
+    name: "linux.perf"
+    perf_event_config {
+      timebase {
+        frequency: 100
+        timestamp_clock: PERF_CLOCK_MONOTONIC
+      }
+      callstack_sampling {
+      }
+    }
+  }
+}
+duration_ms: 30000
